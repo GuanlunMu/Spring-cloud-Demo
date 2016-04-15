@@ -21,4 +21,16 @@ public class Fortune {
     public void setText(String text) {
         this.text = text;
     }
+
+	public Fortune(Long id, String text) {
+		super();
+		this.id = id;
+		this.text = text;
+	}
+
+	public Fortune() {
+		super();
+	}
+    
+    
 }
